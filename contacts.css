@@ -1,0 +1,200 @@
+*{
+	margin:0;
+	align-content: center;
+	padding: 0px;
+}
+body{
+	background-color: lightcyan;
+
+}
+header {
+	background-color: black;
+	padding-top: 0px;
+	color: white;
+	line-height: 30px;
+
+}
+
+
+
+
+header h1{
+	
+	font-family: times new roman sans-serif;
+	padding:10px 10px 30px 10px;
+	text-align: center;
+	margin-top:20px;
+}
+header a{
+	
+	border-radius: 10px;
+	padding:0px;
+	font-size: 30px;
+	font-weight: bold;
+	width: 20%;
+	color: white;
+	margin-top: 30px;
+	
+
+}
+
+
+
+main{
+	width: 90vw;
+	padding: 30px 20px;
+	margin: 0 auto;
+	min-height: calc(100vh - 77px - 70px);
+
+
+}
+main a{
+	background-color: lime;
+	padding: 15px;
+	border: 2px solid blue;
+	padding-bottom:  5px;
+	border-radius: 5px;
+	width: 70px;
+	font-size: 15px;
+	font-family: times new roman sans-serif;
+	font-weight: bold;
+	
+	
+
+
+}
+main a:hover{
+	background-color: #ADD8E6;
+
+	
+}
+
+article {
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	background-color: darkcyan;
+
+}
+ article h2{
+	margin-bottom: 30px;
+	font-family: times new roman sans-serif;
+	text-align: center;
+	color: #000000;
+ 
+}
+article p{
+	text-align: center;
+	font-family: times new roman sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+	color: #000000;
+
+}
+article a {
+	padding left:10px;
+	font-size: 20px;
+	border-radius: 5px;
+}
+article a:hover{
+	background-color: white;
+	color:blue;
+
+}
+#john img{
+	border:1px solid black;
+	border-radius: 5px;
+	margin-left: 500px;
+	margin-bottom:   10px;
+	transition: transform .2s;	
+}
+/*#john img:hover{
+	transform: scale(1.5);*/
+
+}
+#eve img{
+	border:1px solid black;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-left: 240px;
+	margin-bottom:   10px;
+	transition: transform .2s;
+	}
+	#eve img:hover{
+	transform: scale(1.5);
+}
+	#kylie img{
+		border:1px solid black;
+	border-radius: 5px;
+		margin-top: 10px;
+	margin-left: 240px;
+	margin-bottom:   10px;
+	transition: transform .2s;	
+}
+#kylie img:hover{
+	transform: scale(1.5);
+}
+#brandon img{
+	border:1px solid black;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-left: 240px;
+	margin-bottom:   10px;
+	transition: transform .2s;	
+}
+#brandon img:hover{
+	transform: scale(1.5);
+}
+#jake img{
+	border:1px solid black;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-left: 240px;
+	margin-bottom:   10px;
+	transition: transform .2s;	
+}
+#jake img:hover{
+	transform: scale(1.5);
+}
+
+ul{
+	
+	background-color: white;
+	padding:20px;
+	margin-bottom: 20px;
+	width:50vw;
+	border-radius: 5px;
+	margin: auto;
+	transition: transform .2s;
+	list-style-type: none;
+
+}
+/*ul:hover{
+	transform: scale(1.5);*/
+}
+li{
+	list-style-type: none;
+	margin-left: 10px;
+
+}
+li{
+	
+	text-align: left;
+	font-family: times new roman sans-serif;
+	font-weight: bold;
+	font-style: ;
+}
+footer{
+	background-color: black;
+	padding-bottom: 0px;
+	color: #fff;
+	position: absolute;
+	width:100%;
+	height: 70px;
+}
+footer p{
+	margin-top: 20px;
+	font-size: 20px;
+	font-family: times new roman sans-serif;
+	text-align: center;
+}
